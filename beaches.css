@@ -1,0 +1,177 @@
+body{
+ text-align:center;
+ background-color:white; 
+ width:100%; 
+}
+html{
+ scroll-behavior:smooth;
+}
+.menu1{
+ list-style-type:none;
+ overflow:hidden;
+ background-color:#f7a900;
+ border-radius:25px; 
+ position:fixed;
+ top: 0;
+ width:100%;
+ padding:20px;
+ opacity:90%;
+ font-family:sans-serif;
+}
+.sub{
+ float:left;
+ padding:2px 30px;
+ font-size:16px;
+}
+a:link,a:visited{
+ color:white;
+ background-color:#f7a900;
+ font-weight:bold;
+ text-decoration:none;
+ text-transform:uppercase;
+ padding:10px 15px;
+ border-radius:15px; 
+
+}
+.cap{
+ font-size:24px;
+ margin-left:20px;
+ letter-spacing:3px;
+}
+a:hover,a:active{
+ background-color:#d3d62a;
+ color:white;
+}
+*{
+ margin:0px;
+ padding:0px;
+ font-family:sans-serif;
+ box-sizing:border-box;
+}
+#header{
+ width:100%;
+ height:742px;
+ border:0px solid blue;
+ margin-left:auto;
+ margin-right:auto; 
+}
+#footer{
+ width:100%;
+ height:50px;
+ border:0px solid blue;
+ margin-left:auto;
+ margin-right:auto; 
+ border-radius:5px;
+ background-color:#C46001; 
+}
+.ft{
+ color:white;
+ font-family:sans-serif;
+ font-size:20px; 
+ padding-top:10px;
+ letter-spacing:4px;
+}
+#content{
+ width:100%;
+ height:1700px;
+ border:0px solid white;
+ margin-left:0px;
+ margin-right:0px; 
+ background-color:#ededed; 
+ 
+}
+#left{
+ width:50%;
+ height:1550px;
+ border:0px solid black;
+ float:left;
+ margin-right:0px;
+ margin-left:0px;
+}
+#right{
+ width:50%;
+ height:1550px;
+ border:0px solid black;
+ float:left;
+}
+
+.ng{
+ margin-top:60px;
+ margin-left:80px;
+}
+
+.mg{
+ margin-top:60px;
+ margin-right:50px; 
+}
+
+.ngapali,.chaungtha{
+ text-align:justify;
+ font-size:20px; 
+ margin-left:143px;
+ margin-right:65px;
+ margin-top:40px;
+ line-height:1.5;
+}
+
+.maungmagan,.ngwesaung{
+ text-align:justify;
+ font-size:20px;
+ font-size:20px;
+ margin-left:74px;
+ margin-right:123px;
+ margin-top:40px;
+ line-height:1.5;
+ font-family:sans-serif;
+}
+.bold{
+ font-size:22px;
+}
+
+.sec{
+ width:100%;
+ height:900px;
+ background-color:/*#c6ced1*/#ededed;
+ margin-left:0px;
+ margin-right:0px;
+ overflow:hidden;
+}
+
+h1{
+ float:left;
+ margin-left:0px;
+}
+
+.img-hover-zoom{
+ height:auto;
+ overflow:hidden;
+ display:inline-block;
+ margin-left:0px;
+ margin-top:7px;
+}
+.img-hover-zoom img{
+ transition:transform .2s, filter 2s ease-in-out;
+ transform-origin:50% 60%;
+ filter:brightness(100%);
+ float:left;
+}
+.img-hover-zoom:hover img{
+ transform:scale(1.7);
+ filter:brightness(120%);
+
+}
+.image{
+ float:left;
+}
+/* CSS_3 Simple Resopnsive Code */
+* {
+  box-sizing: border-box;
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+
+

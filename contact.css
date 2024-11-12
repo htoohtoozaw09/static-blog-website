@@ -1,0 +1,120 @@
+body{
+ text-align:center;
+ background-color:#eaeff2;  
+ width:100%;
+}
+html{
+ scroll-behavior:smooth;
+}
+.menu1{
+ list-style-type:none;
+ overflow:hidden;
+ background-color:#f7a900;
+ border-radius:25px; 
+ position:fixed;
+ top: 0;
+ width:100%;
+ padding:20px;
+ opacity:90%;
+ font-family:sans-serif;
+}
+.sub{
+ float:left;
+ padding:2px 30px;
+ font-size:16px;
+}
+a:link,a:visited{
+ color:white;
+ background-color:#f7a900;
+ font-weight:bold;
+ text-decoration:none;
+ text-transform:uppercase;
+ padding:10px 15px;
+ border-radius:15px; 
+
+}
+a:hover,a:active{
+ background-color:#d3d62a;
+ color:white;
+}
+*{
+ margin:0px;
+ padding:0px;
+ font-family:sans-serif;
+}
+#header{
+ width:100%;
+ height:63px;
+ border:0px solid blue;
+ margin-left:auto;
+ margin-right:auto; 
+}
+#footer{
+ width:100%;
+ height:50px;
+ border:0px solid blue;
+ margin-left:auto;
+ margin-right:auto; 
+ border-radius:5px;
+ background-color:#C46001; 
+}
+.ft{
+ color:white;
+ font-family:sans-serif;
+ font-size:20px; 
+ padding-top:12px;
+ word-spacing:3px;
+ letter-spacing:3px;
+}
+#content{
+ width:100%;
+ height:575px;
+ border:0px solid white;
+ margin-left:auto;
+ margin-right:auto; 
+ background-color:#eaeff2; 
+}
+.name{
+ border-radius:25px;
+ padding:15px;
+ font-family:sans-serif;
+ font-size:16px;
+}
+h1{
+ margin-top:35px;
+ margin-bottom:15px;
+ color:#f7a900;
+}
+.msg{
+ border-radius:20px;
+ padding-top:15px;
+ padding-bottom:15px;
+ padding-left:15px;
+ padding-right:345px;
+ font-family:sans-serif;
+}
+.btn{
+ font-family:sans-serif;
+ background-color:#f7a900;
+ color:white;
+ border-radius:25px;
+ padding-top:15px;
+ padding-bottom:15px;
+ padding-left:25px;
+ padding-right:25px;
+ font-size:16px;
+}
+.btn:hover,.btn:active{
+ background-color:white;
+ color:black;
+}
+/* CSS_3 Simple Resopnsive Code */
+* {
+  box-sizing: border-box;
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}

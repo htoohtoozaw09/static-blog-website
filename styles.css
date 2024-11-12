@@ -1,0 +1,16 @@
+#slider-left-but { 
+	display: block; 
+	width: 30px; 
+	height: 30px; 
+	border: none; 
+	background: url(left.png);
+	margin-right: 10px; 
+}
+
+#slider-right-but { 
+	display: block; 
+	width: 30px; 
+	height: 30px; 
+	border: none; 
+	background: url(right.png); 
+}

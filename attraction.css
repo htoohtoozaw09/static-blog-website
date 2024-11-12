@@ -1,0 +1,289 @@
+body{
+  text-align:center;
+  background-color:white; 
+  font-family:sans-serif;  
+}
+#content{
+ width:100%;
+ height:2400px;
+ border:0px solid blue;
+ margin-left:auto;
+ margin-right:auto; 
+ background-color:white;}
+ 
+ #left{
+ width:32%;
+ height:2300px;
+ border:0px solid blue;
+ float:left;
+ margin-right:20px;
+ margin-left:8px;
+ 
+ }
+ 
+ #center{
+ width:30%;
+ height:2300px;
+ border:0px solid blue;
+ float:left;
+ margin-right:20px;
+ }
+ #right{
+ width:32%;
+ height:2300px;
+ border:0px solid blue;
+ float:left;
+}
+#header{
+ width:100%;
+ height:742px;
+ border:0px solid blue;
+ margin-left:auto;
+ margin-right:auto; 
+background-image:url(img/rangon1.jpg);
+}
+
+h1{
+ font-family:sans-serif;
+ letter-spacing:2px; 
+}
+.sub{
+ float:left;
+ padding:2px 30px;
+ font-size:16px;
+}
+
+.menu2{
+list-style-type:none;
+overflow:hidden;
+background-color:#1C4261;
+border-radius:25px; 
+position:fixed;
+top: 0;
+width:100%;
+padding:20px;
+opacity:80%;
+font-family:sans-serif;
+}
+.a2:link,.a2:visited{
+ color:white;
+ background-color:#1C4261;
+ font-weight:bold;
+ text-decoration:none;
+ text-transform:uppercase;
+ padding:10px 15px;
+ border-radius:15px;
+}
+.a2:hover,.a2:active{
+ background-color:#30312C;
+color:white;}
+
+.ft{
+ color:white;
+ font-family:sans-serif;
+ font-size:20px; 
+ padding-top:6px;
+ letter-spacing:4px;
+}
+*{
+ margin:0px;
+ padding:0px;
+}
+
+.mpp{
+ float:left;
+ margin-left:50px;
+ margin-top:20px;
+ padding:4px 3px;
+ font-family:sans-serif;
+ letter-spacing:2px;
+ font-size:24px;
+}
+.kyk{
+ padding:20px 20px;
+ border-radius:5px;
+}
+.nad{
+ padding-top:70px;
+}
+.gr{
+ text-align:justify;
+ font-size:18px;
+ padding:25px 5px;
+ margin-left:39px;
+ margin-right:38px;
+ line-height:1.5;
+ font-family:sans-serif;
+}
+.shwe,.tkl,.and,.dmt,.ayy{
+ text-align:justify;
+ font-size:18px;
+ padding:45px 0px;
+ margin-left:39px;
+ margin-right:38px;
+ line-height:1.5;
+ font-family:sans-serif;
+}
+.dama{
+ margin-top:20px;	
+}
+.popa{
+ padding-top:70px;
+}
+
+.ananda{
+ padding:12px;
+}
+
+.aye{
+ padding-top:55px;
+}
+.caption{
+ font-size:20px;
+ font-family:sans-serif;
+}
+.section1{
+ width:100%;
+ height:200px;
+ border:1px solid green;
+ margin-left:auto;
+ margin-right:auto; 
+ background-color:#1C4261;
+ color:white;
+ opacity:80%;
+ }
+.mf{
+ font-size:22px;
+ text-align:justify;
+ margin:50px 50px;
+ font-family:sans-serif;
+ 
+}
+.section2{
+ width:100%;
+ height:1900px;
+ border:0px solid green;
+ margin-left:auto;
+ margin-right:auto; 
+ background-color:white;
+ }
+ #left2{
+ width:49%;
+ height:1900px;
+ border:0px solid blue;
+ float:left;
+ margin-left:10px;
+ }
+ #right2{
+ width:49%;
+ height:1900px;
+ border:0px solid blue;
+ float:left;
+ }
+.thingyan{
+ margin:49px;
+}
+.paung{
+ margin:49px;
+}
+.manaw{
+ font-family:sans-serif;
+ text-align:justify;
+ margin:39px 39px;
+ font-size:20px;
+ line-height:1.6;
+}
+.tg{
+ font-family:sans-serif;
+ text-align:justify;
+ margin-left:39px;
+ margin-right:39px;
+ margin-top:89px;
+ margin-bottom:69px;
+ font-size:20px;
+ line-height:1.5;
+}
+.pdo{
+ font-family:sans-serif;
+ text-align:justify;
+ margin-left:39px;
+ margin-right:39px;
+ margin-top:89px;
+ margin-bottom:69px;
+ font-size:20px;
+ line-height:1.5;
+}
+.tgf{
+ font-family:sans-serif;
+ text-align:justify;
+ margin-left:39px;
+ margin-right:39px;
+ margin-top:69px;
+ margin-bottom:69px;
+ font-size:20px;
+ line-height:1.5;
+}
+.tt{
+margin:49px;	
+}
+#footer1{
+ width:100%;
+ height:49px;
+ border:1px solid white;
+ margin-left:auto;
+ margin-right:auto; 
+ border-radius:5px;
+ background-color:#1C4261; 
+}
+
+.amz{
+ font-family:sans-serif;
+ font-size:24px;
+ float:left;
+ margin-left:50px;
+ margin-bottom:26px;
+ letter-spacing:2px;
+ font-size:24px;
+}
+.sadan{
+ margin-top:92px;
+}
+.phowin{
+ margin-top:122px;
+}
+.pdy,.sdc,.pwc{
+ text-align:justify;
+ font-size:18px;
+ padding:45px 2px;
+ margin-left:39px;
+ margin-right:38px;
+ line-height:1.5;
+ font-family:sans-serif;
+}
+
+#ss{
+	width:100%;
+	height:600px;
+}
+.dance{
+	 text-align:justify;
+ font-size:18px;
+ margin:20px 50px;
+ line-height:1.5;
+ font-family:sans-serif;
+}
+.head{
+	 font-family:sans-serif;
+ letter-spacing:2px;
+ margin-top:10px;
+}
+/* CSS_3 Simple Resopnsive Code */
+* {
+  box-sizing: border-box;
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
